@@ -1,0 +1,2 @@
+This folder is for storing project documentation and images, including the System Flow Diagram.
+Save your exported "system_flow.png" image here.
