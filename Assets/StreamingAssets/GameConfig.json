@@ -1,0 +1,72 @@
+{
+  "mapLocations": [
+    {
+      "locationId": "central_square",
+      "locationName": "Central Square",
+      "travelFee": 10,
+      "targetAudiences": [
+        "Fact",
+        "Classic"
+      ]
+    },
+    {
+      "locationId": "morning_cafe",
+      "locationName": "The Morning Cafe",
+      "travelFee": 15,
+      "targetAudiences": [
+        "Drama",
+        "Crime"
+      ]
+    },
+    {
+      "locationId": "grand_station",
+      "locationName": "Grand Station",
+      "travelFee": 20,
+      "targetAudiences": [
+        "Travel",
+        "Kids"
+      ]
+    },
+    {
+      "locationId": "far_horizons",
+      "locationName": "Far Horizons",
+      "travelFee": 30,
+      "targetAudiences": [
+        "Fantasy"
+      ]
+    }
+  ],
+  "cargoCrates": [
+    {
+      "crateId": "second_hand_crate",
+      "crateName": "Second-hand Crate",
+      "price": 50,
+      "dropRates": [
+        { "genre": "Crime", "rate": 15 },
+        { "genre": "Drama", "rate": 15 },
+        { "genre": "Fact", "rate": 15 },
+        { "genre": "Fantasy", "rate": 10 },
+        { "genre": "Classic", "rate": 15 },
+        { "genre": "Kids", "rate": 15 },
+        { "genre": "Travel", "rate": 15 }
+      ]
+    },
+    {
+      "crateId": "thematic_crate",
+      "crateName": "Thematic Crate",
+      "price": 120,
+      "dropRates": [
+        { "genre": "Drama", "rate": 50 },
+        { "genre": "Classic", "rate": 50 }
+      ]
+    },
+    {
+      "crateId": "mystery_antique_crate",
+      "crateName": "Mystery Antique Crate",
+      "price": 300,
+      "dropRates": [
+        { "genre": "Fantasy", "rate": 100 }
+      ]
+    }
+  ]
+}
